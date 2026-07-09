@@ -156,6 +156,31 @@ th{
   color:black;
 }
 
+.img-contenar img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 .img-contenar{
-  
+    position: relative;
+}
+
+.first{
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+    border: 1px red solid;
+}
+
+.sceond{
+    width: 120px;
+    border: 2px solid red;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    color: white;
 }
