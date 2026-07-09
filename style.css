@@ -23,9 +23,7 @@ a {
   margin: 0px;
   padding: 0px;
 }
-.our-story{
-  padding: 80px 8%;
-}
+
 header{
     background-image:    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('./image/coffe\ img\ 02.jpg');
     height: 90vh;
