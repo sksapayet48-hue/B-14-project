@@ -24,6 +24,10 @@ a {
   padding: 0px;
 }
 
+section{
+  padding: 80px 8%;
+}
+
 header{
     background-image:    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('./image/coffe\ img\ 02.jpg');
     height: 90vh;
@@ -49,4 +53,19 @@ gap: 10px;
   border-radius: 20px;
   background-color: #e9844c;
   color: white;
+}
+
+.our-story{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+}
+
+.our-story div img{
+  width: 100%;
+  border-radius: 12px;
+}
+.our-story .right-side{
+  display: grid;
+  align-items: center;
 }
